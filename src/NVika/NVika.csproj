@@ -6,9 +6,10 @@
 		<ErrorLog>bin\$(Configuration)\$(TargetFramework)\static-analysis.sarif.json;version=2</ErrorLog>
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>nvika</ToolCommandName>
-		<Authors>laedit</Authors>
+		<Authors>laedit,smoogipoo</Authors>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>Tool - Parse analysis reports (InspectCode, ...) and send messages to build server or console.</Description>
+		<PackageId>smoogipoo.NVika</PackageId>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/laedit/vika</PackageProjectUrl>
